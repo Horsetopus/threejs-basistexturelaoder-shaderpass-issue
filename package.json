@@ -1,0 +1,40 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "webpack-dev-server --host 0.0.0.0 --port 8081 --mode development --hot --inline",
+    "build": "webpack -p --mode=production"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "html-webpack-string-replace-plugin": "^1.1.0",
+    "json-loader": "^0.5.7",
+    "path-exists": "^4.0.0",
+    "three": "^0.113.2",
+    "worker-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@types/webpack-env": "^1.15.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "raw-loader": "^3.1.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,29 @@
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "allowJs": true,
+    "outDir": "built",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "three": [ "node_modules/three/src/Three" ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
